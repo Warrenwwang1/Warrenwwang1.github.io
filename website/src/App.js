@@ -6,6 +6,9 @@ import {
 } from "react-router-dom";
 import './website.css';
 import Home from './components/Home';
+import Experiences from './components/Experiences';
+import About from './components/About';
+
 
 function App() {
   return (
@@ -13,7 +16,10 @@ function App() {
     <div className="App">
       <div className="website">
       <Switch>
-        <Route path = '/' component = {Home}/>
+        <Route exact path = '/' component = {Home}/>
+        <Route path = '/experiences' component = {Experiences}/>
+        <Route path = '/about' component = {About}/>
+
       </Switch>
       </div>
     </div>
