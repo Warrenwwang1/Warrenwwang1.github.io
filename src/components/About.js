@@ -5,7 +5,7 @@ import pirate from '../images/piratebaby.png';
 import jazz from '../images/jazz.JPG';
 import daryn from '../images/daryn.jpg';
 import basketball from '../images/basketball.JPG';
-import { isObjectTypeIndexer } from '@babel/types';
+// import { isObjectTypeIndexer } from '@babel/types';
 
 class About extends Component {
     constructor(props) {
@@ -70,13 +70,3 @@ class About extends Component {
 }
 
 export default About;
-
-
-{/* <div className="container">
-        <img className="image" src={warren} />
-        <div className="overlay">
-            <p onClick={()=>this.routeToHome()} className = "text-selected">HOME</p>
-            <p onClick={()=>this.routeToExp()} className = "text">TECH BACKGROUND</p>
-            <p onClick={()=>this.routeToAbt()} className = "text">ABOUT ME</p>
-        </div>
-    </div> */}
