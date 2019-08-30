@@ -5,6 +5,7 @@ import giticon from '../images/giticon.png';
 import resume from '../images/resume.png';
 import linkedin from '../images/linkedin.png';
 import email from '../images/email.png';
+import arrow from '../images/arrow.png';
 
 
 class Home extends Component {
@@ -53,6 +54,7 @@ class Home extends Component {
 
 
                     </div>
+                    <img className='moving-arrow' src={arrow}/>
                     <div className="container">
                             <img className="image" src={warren} />
                         <div className="overlay">
