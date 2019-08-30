@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Link from './Link';
 import '../website.css';
 import warren from '../images/warren.JPG';
 import pirate from '../images/piratebaby.png';
@@ -44,9 +45,12 @@ class About extends Component {
             <div className="EP-container">
                     <img className="EP-image" src={warren} />
                     <div className="EP-overlay">
-                        <p onClick={() => this.routeToHome()} className="text">HOME</p>
+                        {/* <p onClick={() => this.routeToHome()} className="text">HOME</p>
                         <p onClick={() => this.routeToExp()} className="text">TECH BACKGROUND</p>
-                        <p onClick={() => this.routeToAbt()} className="text-selected">ABOUT ME</p>
+                        <p onClick={() => this.routeToAbt()} className="text-selected">ABOUT ME</p> */}
+                        <p onClick={() => this.routeToHome()} className="text"><Link name='HOME' link='/'/></p>
+                        <p onClick={() => this.routeToExp()} className="text"><Link name='TECH BACKGROUND' link='/#experiences'/></p>
+                        <p onClick={() => this.routeToAbt()} className="text-selected"><Link name='ABOUT' link='/#about'/></p>
 
                     </div>
                 </div>                
