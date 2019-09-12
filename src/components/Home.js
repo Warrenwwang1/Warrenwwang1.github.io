@@ -42,7 +42,7 @@ class Home extends Component {
                         <a href="https://github.com/warrenwwang1">
                             <img src={giticon} className="icon" />
                         </a>
-                        <a href="https://www.dropbox.com/s/k65rm3ysbgwgij6/Warren%20Wang%20Resume.docx?dl=0">
+                        <a href="https://www.dropbox.com/s/9ydr3qp2ti0xstq/Warren%20Wang%20Resume.pdf?dl=0">
                             <img src={resume} className="icon" />
                         </a>
                         <a href="https://www.linkedin.com/in/warrenwwang">
